@@ -1,0 +1,16 @@
+:host {
+    padding: 100px;
+}
+
+.prending {
+    color: gray;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+     font-weight: bold;
+}
