@@ -10,21 +10,9 @@ export class AppComponent {
   title = 'typing';
 
   randomText = lorem.sentence();
-  // firstNumber: number = 0;
+
   enteredText = '';
 
-  // timer(){
-
-  //   while (this.randomText !== this.enteredText) {
-  //     setInterval( () => this.incrementNumber(this.firstNumber), 1000)
-
-  //   }
-
-  // }
-
-  // incrementNumber(num: number) {
-  //   this.firstNumber++;
-  // }
 
   onInput(event: Event) {
     this.enteredText = (event.target as HTMLInputElement).value;
